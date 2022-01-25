@@ -103,6 +103,12 @@
     }
 }
 
+- (IBAction)didClickMakePDF:(id)sender {
+}
+
+- (IBAction)didClickOpenPDF:(id)sender {
+}
+
 - (void)didClickMakePDF {
    [self setupPDFDocumentNamed:@"NewPDF" Width:850 Height:1100];
     [self beginPDFPage];
