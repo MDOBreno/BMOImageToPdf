@@ -7,6 +7,7 @@
 //
 
 #import "MTViewController.h"
+//Defir afastamento()imagino que das bordas:
 #define kPadding 50
 
 @interface MTViewController ()
@@ -101,12 +102,6 @@
             [self presentViewController:readerViewController animated:YES completion:nil];
         }
     }
-}
-
-- (IBAction)didClickMakePDF:(id)sender {
-}
-
-- (IBAction)didClickOpenPDF:(id)sender {
 }
 
 - (void)didClickMakePDF {
